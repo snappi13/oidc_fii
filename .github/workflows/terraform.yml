@@ -43,7 +43,7 @@ jobs:
           curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
           tfsec .
 
-       --- ACTUAL DEPLOYMENT (BLOCKING) ---
+       #--- ACTUAL DEPLOYMENT (BLOCKING) ---
 
        - name: Terraform Format
          run: terraform fmt -check
